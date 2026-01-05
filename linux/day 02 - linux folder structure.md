@@ -27,9 +27,7 @@ What I understood:
 - Process information changes dynamically
 - It helps in monitoring system activity
 
-This concept was a bit confusing at first, but I understood that `/proc` helps Linux show live system information.
-
-Right now, it still feels a bit confusing, but I understand that with time and practice, things will become clearer.
+This concept was a bit confusing at first, but I understood that `/proc` helps Linux show live system information. and  I understand that with time and practice, things will become clearer.
 
 ### Bandit wargame progress
 - Started Bandit using SSH
@@ -52,7 +50,7 @@ Right now, it still feels a bit confusing, but I understand that with time and p
 - Folder structure was confusing initially
 - Remembering paths while switching directories
 
-### Tip for myself
+### Tip 
 - It’s okay if everything doesn’t make sense immediately
 
 ### Tomorrow’s plan
