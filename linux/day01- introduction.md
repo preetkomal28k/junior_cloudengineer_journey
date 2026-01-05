@@ -1,0 +1,37 @@
+## Day 1 – Introduction to Linux
+
+### What I did today
+- Learned what Linux is and why it is widely used
+- Explored the Linux terminal for the first time
+- Understood the basic structure of the Linux file system
+- install the linux using vmware
+
+### What is Linux
+Linux is an open-source operating system used in servers, cloud platforms, and DevOps environments.  
+It is fast, secure, and highly customizable, which makes it important for cloud engineers.
+
+### Commands I practiced
+- `pwd` – to check the current directory
+- `ls` – to list files and folders
+- `cd` – to move between directories
+- `mkdir` -  to create directory
+- `rm` - remove directory
+- `cp` - copy file or directory
+- `mv` - can move any directory to folder  (mv file /folder)
+- `ls-l` - 	check preference table
+- `clear` - clear the screen 
+
+### What I learned
+- Linux uses a command-line interface to interact with the system
+- Everything in Linux is treated as a file
+- Directories help organize files in a structured way
+
+### Challenges faced
+- Remembering directory paths while using `cd`
+
+### Tomorrow’s plan
+- Start the Bandit wargame
+- Learn how to connect using SSH
+
+### TIP
+Don’t be afraid of the terminal. Making mistakes is part of learning Linux.
