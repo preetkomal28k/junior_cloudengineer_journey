@@ -55,4 +55,4 @@ This concept was a bit confusing at first, but I understood that `/proc` helps L
 
 ### Tomorrow’s plan
 - Solve more Bandit levels
-- Practice file permissions and basic commands
+- Practice file permissions, Ownership and basic commands
