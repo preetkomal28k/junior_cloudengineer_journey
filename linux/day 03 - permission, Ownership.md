@@ -71,15 +71,14 @@ Practiced extracting and reading files using Linux commands
 - Remembering commands and paths
 
 ### Tips
-Don’t memorize commands blindly.
-Use them daily and understand why they work.
+Don’t memorize commands blindly. Use them daily and understand why they work.
 
 ### Tomorrow’s plan
 
--Practice more permission-related commands
--Learn about special permissions (setuid, setgid, sticky bit)
--Solve more Bandit levels
--Revise users and groups concepts
+- Practice more permission-related commands.
+- Learn about special permissions (setuid, setgid, sticky bit).
+- Solve more Bandit levels.
+- Revise users and groups concepts.
 
 
 
