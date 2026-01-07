@@ -30,10 +30,56 @@ ls -l
 chown user file.txt
 chgrp group file.txt
 ```
+### Bandit wargame progress
+- Connected to Bandit using SSH
+- Solved Bandit levels from level 0 to level 12
+- Learned how passwords are hidden in:
+- Readable files
+- Files with special characters
+- Hidden files
+- Compressed files
+
+Practiced extracting and reading files using Linux commands
+
+### Commands I practiced
+`ls`
+`ls -l`
+`cd`
+`cat`
+`pwd`
+`ssh`
+`file`
+`find`
+`grep`
+`chmod`
+`tar`
+`gzip`
+`bzip2`
+`xxd`
 
 ### What I learned 
 - Permissions and ownership control file security
 - Bandit improves command-line confidence
 - Linux skills improve faster with hands-on challenges
 - Understanding file types is very important in Linux
+  
+### Challenges faced
+
+- Understanding permission symbols and numbers
+- Identifying correct files among many files
+- Extracting multiple compressed files
+- Remembering commands and paths
+
+### Tips
+Don’t memorize commands blindly.
+Use them daily and understand why they work.
+
+### Tomorrow’s plan
+
+-Practice more permission-related commands
+-Learn about special permissions (setuid, setgid, sticky bit)
+-Solve more Bandit levels
+-Revise users and groups concepts
+
+
 
