@@ -42,20 +42,20 @@ chgrp group file.txt
 Practiced extracting and reading files using Linux commands
 
 ### Commands I practiced
-`ls`
-`ls -l`
-`cd`
-`cat`
-`pwd`
-`ssh`
-`file`
-`find`
-`grep`
-`chmod`
-`tar`
-`gzip`
-`bzip2`
-`xxd`
+- `ls`
+- `ls -l`
+- `cd`
+- `cat`
+- `pwd`
+- `ssh`
+- `file` 
+- `find`
+- `grep`
+- `chmod`
+- `tar`
+- `gzip`
+- `bzip2`
+- `xxd`
 
 ### What I learned 
 - Permissions and ownership control file security
