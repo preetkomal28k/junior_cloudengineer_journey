@@ -1,4 +1,4 @@
-# Day 9 – Ports and Services
+# Day 10 – Ports and Services
 
 ### What I did today
 - Learned about **ports** in Linux  
