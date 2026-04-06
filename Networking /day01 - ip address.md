@@ -2,25 +2,22 @@
 ## What is an IP Address?
 
 An IP (Internet Protocol) address is a unique number assigned to each device to communicate  on a network.
+
 Example:
 `192.168.1.1`
 
-👉 It helps in:
+#### It helps in:
 
 Identifying devices
 Sending and receiving data
 
-🔹 Why do we need IP Address?
+### Why do we need IP Address?
 
-Every device on a network needs a unique identity to communicate.
+Every device on a network needs a unique identity to communicate. Just like we use phone numbers to call someone .Computers use IP addresses to send and receive data
 
-Just like we use phone numbers to call someone
-Computers use IP addresses to send and receive data
+#### Without IP addresses:
 
-👉 Without IP addresses:
-
-Devices cannot find each other
-Internet communication will not work
+Devices cannot find each other Internet communication will not work
 🔹 How does IP Address work?
 
 When you access a website:
