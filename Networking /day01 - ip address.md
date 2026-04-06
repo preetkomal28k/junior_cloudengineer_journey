@@ -1,11 +1,9 @@
 
-🔹 What is an IP Address?
+## What is an IP Address?
 
-An IP (Internet Protocol) address is a unique number assigned to each device on a network.
-
+An IP (Internet Protocol) address is a unique number assigned to each device to communicate  on a network.
 Example:
-
-192.168.1.1
+`192.168.1.1`
 
 👉 It helps in:
 
