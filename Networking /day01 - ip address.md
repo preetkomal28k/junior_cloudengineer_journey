@@ -125,7 +125,7 @@ Example:
  ```
 🔹 Structure
 
-👉 Example:
+ Example:
 
 IP Address:     192.168.1.10
 Subnet Mask:    255.255.255.0
@@ -140,8 +140,92 @@ Example:
 
 192.168.1.0/24
 
-👉 /24 means:First 24 bits = network
+ /24 means:First 24 bits = network
 Remaining 8 bits = host
 
 24 bits for network
 Remaining for hosts
+
+## ⭐ What is IPv6?
+
+**IPv6 (Internet Protocol Version 6)** is the latest version of the Internet Protocol designed to replace IPv4.
+
+* IPv4 uses **32-bit addressing** (~4.3 billion addresses)
+* IPv6 uses **128-bit addressing** (~3.4 × 10³⁸ addresses)
+
+ Example:
+`2001:db8::1`
+
+
+#### 🔹 Why IPv6?
+
+IPv4 limitations led to the development of IPv6:
+
+##### Problems with IPv4:
+
+* Address exhaustion
+* Dependence on NAT (Network Address Translation)
+* Broadcast overhead
+* Limited scalability
+
+##### IPv6 Improvements:
+
+* Massive address space
+* End-to-end connectivity (no NAT required)
+* Efficient routing and simplified headers
+* Built-in support for IPSec
+* No broadcast (uses multicast instead)
+
+### 🔹 How IPv6 Works?
+
+IPv6 provides **globally unique addresses** to devices, enabling direct communication across networks.
+
+* Uses **hexadecimal notation**
+* Addresses divided into **8 groups (16 bits each)**
+* Supports hierarchical addressing for efficient routing
+
+###  ⭐ SLAAC (Stateless Address Auto Configuration
+**SLAAC** allows a device to automatically configure its own IPv6 address without a DHCP server.
+
+####  SLAAC Process
+1. **Router Advertisement (RA):**
+   Router sends network prefix (e.g., `2001:db8::/64`)
+
+2. **Address Generation:**
+   Device combines:
+
+   * Network prefix
+   * Interface identifier (EUI-64 or random)
+
+3. **Duplicate Address Detection (DAD):**
+   Ensures the address is unique
+
+ Result:
+`2001:db8::abcd:1234`
+
+### ⭐ Key Features of SLAAC:
+
+* Stateless (no server tracking)
+* Automatic configuration
+* Plug-and-play networking
+
+####  IPv6 Communication Types
+
+##### 🔸 1. Unicast
+
+* One-to-one communication
+* Used for standard client-server traffic
+
+##### 🔸 2. Multicast
+
+* One-to-many (group communication)
+* Replaces broadcast in IPv6
+* Example: Neighbor Discovery
+
+##### 🔸 3. Anycast
+
+* One-to-nearest communication
+* Same IP assigned to multiple devices
+* Closest node responds
+ 
+
