@@ -108,21 +108,33 @@ print(length)
 #### ⚙️ Common Tuple Operations
 
 ⭐ Access Element
+```bash 
 my_tuple = (5, 15, 25)
 element = my_tuple[1]
-print(element)  # Output: 15
+print(element) 
+# Output: 15
+```
 ⭐ Tuple Packing & Unpacking
+```bash 
 point = (7, 9)
 x, y = point
-print(x, y)  # Output: 7 9
+print(x, y)
+ # Output: 7 9
+```
 ⭐ Concatenation
+```bash 
 t1 = (1, 2)
 t2 = (3, 4)
-print(t1 + t2)  # Output: (1, 2, 3, 4)
+print(t1 + t2)
+  # Output: (1, 2, 3, 4)
+```
 ⭐ Check Element Exists
+```bash 
 my_tuple = ('red', 'blue', 'green')
 result = 'blue' in my_tuple
-print(result)  # Output: True
+print(result)
+ # Output: True
+```
 ⭐ Multiple Return Values (Function)
 def get_values():
     return (100, 200)
