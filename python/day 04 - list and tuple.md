@@ -78,3 +78,54 @@ print(is_present)
 
 #output= true
 ```
+## What is a Tuple?
+
+A tuple is a data structure similar to a list, but with one key difference
+ Tuples are immutable (cannot be changed after creation)
+
+- Ordered
+- Immutable
+- Allows multiple data types
+```bash 
+my_tuple = (10, 20, 'cat', 'dog')
+```
+#### 🔢 Tuple Indexing
+
+Access elements using index (starts from 0):
+```bash 
+my_tuple = (10, 20, 'cat', 'dog')
+value = my_tuple[2]
+print(value)
+ # Output: cat
+```
+##### 📏 Tuple Length
+```bash 
+my_tuple = (10, 20, 'cat', 'dog')
+length = len(my_tuple)
+print(length)
+ # Output: 4
+```
+#### ⚙️ Common Tuple Operations
+
+⭐ Access Element
+my_tuple = (5, 15, 25)
+element = my_tuple[1]
+print(element)  # Output: 15
+⭐ Tuple Packing & Unpacking
+point = (7, 9)
+x, y = point
+print(x, y)  # Output: 7 9
+⭐ Concatenation
+t1 = (1, 2)
+t2 = (3, 4)
+print(t1 + t2)  # Output: (1, 2, 3, 4)
+⭐ Check Element Exists
+my_tuple = ('red', 'blue', 'green')
+result = 'blue' in my_tuple
+print(result)  # Output: True
+⭐ Multiple Return Values (Function)
+def get_values():
+    return (100, 200)
+
+a, b = get_values()
+print(a, b)  # Output: 100 200
