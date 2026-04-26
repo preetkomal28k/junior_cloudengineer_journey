@@ -38,11 +38,17 @@ my_list.insert(5,6) # 5 index 6 value
 my_list.extend(,y_list2)
 print(my_list)
 ```
-#### ❌ Remove (Delete Element)
+#### ❌ Remove ,pop , pop() , clear (Delete Element)
 
-Removes a specific value:
+*remove* Removes a specific value
+*pop* remove last element
+*pop()* remove with index
+*clear* clear everything
 ```bash
 my_list.remove('apple')
+my_list.pop
+my_list.pop(0)
+my_list.clear
 ```
 #### ✂️ Slicing
 
@@ -56,7 +62,7 @@ Combine two lists:
 ```bash
 new_list = my_list + [5, 6]
 ```
-###🔃 Sorting
+#### 🔃 Sorting
 
 Sort list elements:
 ```bash
