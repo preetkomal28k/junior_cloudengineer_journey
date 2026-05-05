@@ -84,6 +84,28 @@ except:
 ```
 #### ⭐ How It Works
 - Python runs try block
-- If error comes → goes to except
+- If error comes → goes to except 
 - Error handled
 - Program continues
+
+## *write a code to print the files in a folder using exception handling*
+```bash 
+import os
+
+files_list   = input("enter the files  :").split()  
+
+for files in files_list:  
+
+
+    try :
+     files1 = os.listdir(files)
+     print  (f"===the list of files for the folder " + files)
+     for file in files1:
+      print(file)
+
+    except FileNotFoundError:
+     print("please  enter valid folder name ")
+
+    except PermissionError:
+      print("you dont have permisssion for this folder")
+```
