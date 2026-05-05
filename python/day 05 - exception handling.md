@@ -5,31 +5,29 @@ When you write a Python program, sometimes it crashes because of errors. Excepti
 #### 🔹 Simple Example (Real Life)
 
 Imagine you are using an app:
-
 You enter wrong password ❌
 App shows: "Wrong password, try again" ✅
 
 🔹 It doesn’t crash — it handles the error.
 That’s exactly what exception handling does in Python.
 
-#### Errors vs Exceptions (Easy Way)
+#### ⭐ Errors vs Exceptions (Easy Way)
 ##### 🔹 Errors
-```bash
-Mistakes in code
-Program won’t run
-print("Hello
-```
--  Missing quote → Syntax Error
+
+- Mistakes in code
+- Program won’t run
+- print("Hello)
+🔹  Missing quote → Syntax Error
 
 🔹 Exceptions
-```bash
-Happen while program is running
-Can be handled
-10 / 0
-```
+
+- Happen while program is running
+- Can be handled
+- (10 / 0)
+
 🔹 This gives error during execution
 
-#### 🔥 Common Exceptions (Simple Examples)
+#### ⭐ Common Exceptions (Simple Examples)
 ##### 1. ValueError
 ```bash
 try:
@@ -68,20 +66,24 @@ try:
 except IndexError:
     print("Index out of range!")
 ```
-🧠 try-except (Main Concept)
+#### ⭐ try-except (Main Concept)
 🔹 Basic Syntax
+```bash
 try:
     # risky code
 except:
     # handle error
+```
 🔹 Example
+```bash
 try:
     age = int(input("Enter age: "))
     print(age)
 except:
     print("Invalid input!")
-🔹 How It Works
-Python runs try block
-If error comes → goes to except
-Error handled
-Program continues
+```
+#### ⭐ How It Works
+- Python runs try block
+- If error comes → goes to except
+- Error handled
+- Program continues
